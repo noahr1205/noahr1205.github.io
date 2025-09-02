@@ -1,6 +1,8 @@
-title: My WildCat Studios Portfolio
-description: >-
-         This is my portfolio showcasing my projects and skills.
-baseurl: "" # leave empty since this is your user page
-url: "https://noahr1205.github.io" # replace YOURUSERNAME with your GitHub username
-theme: jekyll-theme-hacker # replace minima with your chosen theme from the list
+# Welcome to My Portfolio Hello! My name is [Your Alias or Initials].
+## Projects
+- Project 1: Description
+- Project 2: Description
+## About Me
+Click here to learn more → [About Me](about.md)
+
+[notebook](notebook.md)
