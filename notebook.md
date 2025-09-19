@@ -52,8 +52,8 @@
 
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
 |------|----------------------------|----------------|-------------------|-------------|
-|main()| A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
-|MaterialApp| The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |  |
+|main()| A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  | void main() => runApp(MyPortfolioApp());|
+|MaterialApp| The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |return MaterialApp(debugShowCheckedModeBanner: false,title: 'TSA Portfolio',theme: ThemeData( |
 |Scaffold| A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |  |
 |Column| A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
 |Row| A widget that shows things side-by-side. | `Row(...)` |  |  |
@@ -71,9 +71,9 @@
 |@override| This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
 |WidgetBuild| The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
 |Build| Required in every widget class to describe what to show. | `build` |  |  |
-|      | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
+|BuildContext| A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
 |super.key| A keyword used to pass a value to the parent widget. | `super.key` |  |  |
-|      | A keyword that means the value won't change and is set once. | `const` |  |  |
+|const| A keyword that means the value won't change and is set once. | `const` |  |  |
 
 
 
